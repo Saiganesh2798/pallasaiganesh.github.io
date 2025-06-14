@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palla Sai Ganesh - Data Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-600 text-white py-4 px-6 md:px-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-semibold">Palla Sai Ganesh</h1>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-blue-200 transition duration-300">About Me</a></li>
+                    <li><a href="#projects" class="hover:text-blue-200 transition duration-300">Projects</a></li>
+                    <li><a href="#experience" class="hover:text-blue-200 transition duration-300">Experience</a></li>
+                    <li><a href="#contact" class="hover:text-blue-200 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="hamburger-btn" class="md:hidden text-white focus:outline-none" aria-label="Toggle Navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="hidden fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-90 z-50">
+        <div class="bg-gray-800 w-80 h-full absolute right-0 p-6">
+            <div class="flex justify-end mb-4">
+                <button id="close-menu-btn" class="text-white focus:outline-none" aria-label="Close Menu">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <nav class="block">
+                <ul class="space-y-4">
+                    <li><a href="#about" class="block text-lg text-white hover:text-blue-200 transition duration-300">About Me</a></li>
+                    <li><a href="#projects" class="block text-lg text-white hover:text-blue-200 transition duration-300">Projects</a></li>
+                    <li><a href="#experience" class="block text-lg text-white hover:text-blue-200 transition duration-300">Experience</a></li>
+                    <li><a href="#contact" class="block text-lg text-white hover:text-blue-200 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section id="about" class="container mx-auto py-16 px-6 md:px-10">
+        <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">About Me</h2>
+        <div class="flex flex-col md:flex-row gap-8 items-center">
+            <div class="md:w-1/3">
+                <img src="Ganesh27img.jpeg" alt="Palla Sai Ganesh" class="rounded-lg shadow-lg">
+            </div>
+            <div class="md:w-2/3 text-gray-700">
+                <p class="text-lg">
+                    Detail-oriented Data Integrity Specialist with over 1 year of experience ensuring high-quality
+                    CRM data and driving business intelligence. Proficient in data analysis, data visualization,
+                    and database management using Python, MySQL, Tableau, and Power BI. Earned Cisco
+                    Data Analytics Essentials Badge, demonstrating expertise in SQL, Tableau, and data
+                    storytelling for actionable insights. Skilled in data cleaning, ETL processes, and data
+                    governance, with a proven ability to collaborate with stakeholders and optimize operations.
+                </p>
+                <div class="mt-6">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Core Competencies</h3>
+                    <ul class="list-disc list-inside grid grid-cols-1 md:grid-cols-2 gap-2">
+                        <li>Programming: Python (Pandas, Seaborn, Matplotlib), SQL</li>
+                        <li>Database Management: MySQL, CRM Data Integrity, Data Governance</li>
+                        <li>Data Visualization: Tableau, Power BI, Interactive Dashboards</li>
+                        <li>Data Analysis: Data Cleaning, Data Modelling, ETL Processes, Statistical Analysis</li>
+                        <li>Business Intelligence: Stakeholder Collaboration, Reporting, Trend Analysis</li>
+                        <li>Microsoft Excel: Advanced Data Analysis, Pivot Tables, Reporting</li>
+                         <li>Technical Support: Microsoft 365, Troubleshooting, Security Permissions</li>
+                        <li>Soft Skills: Problem-Solving, Communication, Cross-Functional Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-gray-200 py-16 px-6 md:px-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">Key Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Popular Movies Analytics Portfolio</h3>
+                    <p class="text-gray-700 mb-4">
+                        Developed an interactive Tableau dashboard analysing a popular movies dataset,
+                        visualizing trends in genres, ratings, and release patterns. Applied SQL for data
+                        extraction and Excel for transformations, delivering actionable insights to optimize
+                        content strategies.
+                    </p>
+                    <p class="text-gray-500 mb-2">Technologies Used: Tableau, SQL, Excel</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-300">View Project</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Credit Card Complaints Dashboard</h3>
+                    <p class="text-gray-700 mb-4">
+                        Created a business intelligence dashboard to track credit card complaints and
+                        underwriting processes, improving customer satisfaction. Leveraged data visualization
+                        to reduce complaint resolution times.
+                    </p>
+                    <p class="text-gray-500 mb-2">Technologies Used: Tableau</p>
+                    <a href="https://public.tableau.com/app/profile/palla.sai.ganesh/viz/CreditCardCompliants_17206603037230/Dashboard1" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-300">View Project</a>
+                </div>
+<img src="Ganesh27img.jpeg" alt="Palla Sai Ganesh" class="rounded-lg shadow-lg w-64 h-64 object-cover">
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Super Store Interactive Insights Dashboard</h3>
+                    <p class="text-gray-700 mb-4">
+                        Designed a user-friendly interface to analyze sales, profitability, and customer trends,
+                        enabling data-driven decision-making. Identified performance gaps and growth
+                        opportunities.
+                    </p>
+                    <p class="text-gray-500 mb-2">Technologies Used: Tableau</p>
+                    <a href="https://public.tableau.com/app/profile/palla.sai.ganesh/viz/SuperStoreInteractiveInsightsDashboard_17176471644280/Dashboard1" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-300">View Project</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Netflix Content Analysis</h3>
+                    <p class="text-gray-700 mb-4">
+                       Conducted exploratory data analysis on Netflix's dataset, visualizing trends in genres
+                        and release times. Delivered strategic insights using data visualization libraries.
+                    </p>
+                    <p class="text-gray-500 mb-2">Technologies Used: Python, Matplotlib, Pandas, Seaborn</p>
+                    <a href="#" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-300">View Project</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Bicycle Rental Demand Analysis</h3>
+                    <p class="text-gray-700 mb-4">
+                       Analysed rental patterns using T-tests and correlation heatmaps, providing predictive
+                        insights for operational planning. Visualized data with histograms and boxplots,
+                        removing outliers via IQR.
+                    </p>
+                    <p class="text-gray-500 mb-2">Technologies Used: Python, Statistical Analysis</p>
+                    <a href="https://colab.research.google.com/drive/19C9M_xKUNnwu0fFntczx4LgxvxrNF94z?usp=sharing" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-300">View Project</a>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">COVID-19 Testing and Symptoms Insights</h3>
+                    <p class="text-gray-700 mb-4">
+                       Performed SQL-based analysis to uncover symptom correlations and testing trends,
+                        supporting public health decision-making.
+                    </p>
+                    <p class="text-gray-500 mb-2">Technologies Used: MySQL, Data Analysis</p>
+                    <a href="https://www.linkedin.com/in/palla-saiganesh-876366270/overlay/1728549861138/single-media-viewer?type=LINK&profileId=ACoAAEJCt1oBPCusJvlDdPayaIVOHd1_IDOkoaI&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIDS1UCTHSjSRDd5JuxKaBw%3D%3D" class="text-blue-500 hover:text-blue-700 hover:underline transition duration-300">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-16 px-6 md:px-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">Professional Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Junior Technical Support Engineer Intern</h3>
+                    <p class="text-gray-600 mb-2">F-Grade Global Services Pvt Ltd, Hyderabad</p>
+                    <p class="text-gray-500 mb-4">September 2023 - February 2024</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Troubleshot and resolved issues in Microsoft 365 Admin Center, managing security
+                            permissions to enhance system reliability.</li>
+                        <li>Configured mail flow rules and disclaimers in Exchange, improving email
+                            communication efficiency and compliance.</li>
+                        <li>Implemented retention policies, archived data, and managed domain allow/block lists for
+                            data security.</li>
+                        <li>Deployed Office 365 features (Teams, OneDrive for Business) to support cloud-based
+                            productivity.</li>
+                        <li>Performed PST backups and facilitated data migration via Outlook and network
+                            uploads.</li>
+                        <li>Collaborated with clients to deliver technical support, showcasing strong problem-
+                            solving skills.</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Process Associate</h3>
+                    <p class="text-gray-600 mb-2">Hashtag IT Solutions, Hyderabad</p>
+                    <p class="text-gray-500 mb-4">January 2023 - August 2023</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Organized large datasets in Microsoft Excel, enabling data accessibility and supporting
+                            business analytics.</li>
+                        <li>Streamlined processes to enhance data quality and reporting efficiency.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="bg-gray-200 py-16 px-6 md:px-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">Education</h2>
+            <div class="space-y-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Bachelor of Technology in Computer Science Engineering</h3>
+                    <p class="text-gray-600 mb-2">St. Mary's Engineering College, Hyderabad</p>
+                    <p class="text-gray-500 mb-4">Graduated: 2022</p>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-2">Diploma in Computer Engineering</h3>
+                    <p class="text-gray-600 mb-2">Teegala Ram Reddy College of Polytechnic, Hyderabad</p>
+                    <p class="text-gray-500 mb-4">Graduated: 2018</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="py-16 px-6 md:px-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">Certifications</h2>
+            <div class="space-y-4">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Data Analytics Essentials Badge</h3>
+                    <p class="text-gray-600 mb-1">Cisco Networking Academy, Credly</p>
+                    <p class="text-gray-500">Earned May 2025 (Projected)</p>
+                    <p class="text-gray-700">Demonstrated foundational skills in data analysis, SQL,
+                        Tableau, and Excel through 29 hands-on labs and a portfolio project analysing movie
+                        data trend.
+                    </p>
+                </div>
+                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Microsoft 365 Fundamentals</h3>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Microsoft Fundamentals Advance</h3>
+                </div>
+                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Prompt Engineering and Chat GPT with Data Analysis</h3>
+                    <p class="text-gray-600 mb-1">Simpli Learn</p>
+                </div>
+                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Exploring Data Transformation with Google</h3>
+                    <p class="text-gray-600 mb-1">Simpli Learn</p>
+                </div>
+                 <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Excel Macros & VBA for Beginners</h3>
+                    <p class="text-gray-600 mb-1">Simpli Learn</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">SQL Basic Badge</h3>
+                    <p class="text-gray-600 mb-1">Hacker Rank</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-lg font-semibold text-blue-600 mb-1">Python Basic Badge</h3>
+                     <p class="text-gray-600 mb-1">Hacker Rank</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-16 px-6 md:px-10">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-semibold text-blue-700 text-center mb-8">Contact</h2>
+            <div class="text-center text-gray-700 space-y-4">
+                <p>Phone: +91 7207235514</p>
+                <p>Email: pallasaiganesh027@gmail.com</p>
+                <div class="flex justify-center gap-6">
+                    <a href="https://linkedin.com/in/palla-saiganesh-876366270" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition duration-300">LinkedIn</a>
+                    <a href="https://gist.github.com/Saiganesh2798" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700 transition duration-300">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const hamburgerBtn = document.getElementById("hamburger-btn");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const closeMenuBtn = document.getElementById("close-menu-btn");
+        const mobileMenuLinks = mobileMenu.querySelectorAll("a");
+        const navLinks = document.querySelectorAll('.nav-links a');
+        const sections = document.querySelectorAll('section');
+
+        function toggleMobileMenu() {
+            mobileMenu.classList.toggle("hidden");
+        }
+
+        hamburgerBtn.addEventListener("click", toggleMobileMenu);
+        closeMenuBtn.addEventListener("click", toggleMobileMenu);
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener("click", toggleMobileMenu);
+        });
+
+        document.addEventListener('click', (event) => {
+            if (!mobileMenu.classList.contains('hidden') && !mobileMenu.contains(event.target) && event.target !== hamburgerBtn) {
+                toggleMobileMenu();
+            }
+        });
+
+       function updateActiveNavLink() {
+            let currentSectionId = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 100 && window.scrollY < sectionTop + sectionHeight - 100) {
+                    currentSectionId = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === currentSectionId) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveNavLink);
+
+
+    </script>
+</body>
+</html>
